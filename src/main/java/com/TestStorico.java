@@ -16,5 +16,6 @@ public class TestStorico {
 
         StoricoDaoJdbc storicoDaoJdbc = new StoricoDaoJdbc();
         storicoDaoJdbc.inserisci(storico);
+        storicoDaoJdbc.elimina(1);
     }
 }
